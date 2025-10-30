@@ -1,1 +1,20 @@
 @import "tailwindcss";
+.nav-hover{
+  text-decoration: none;
+  color: white; /* normal color */
+  transition: all 0.3s;
+}
+
+.nav-hover.active-link {
+  /* text-decoration: underline;
+  text-decoration-color: #db0306; */
+  color: #db0306;
+  text-underline-offset: 4px; /* optional for spacing */
+}
+
+.nav-hover:hover{
+    color: #ff222f;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
